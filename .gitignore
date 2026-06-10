@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+
+# env
+.env
+.env.local
+.env.production
+
+# build
+dist
+.next
+coverage
+
+# logs
+logs
+*.log
+
+# mac/linux
+.DS_Store
+
+# vscode
+.vscode
+
+# prisma
+prisma/dev.db
+
+# docker
+docker-data
