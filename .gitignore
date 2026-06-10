@@ -3,26 +3,30 @@ node_modules
 
 # env
 .env
-.env.local
-.env.production
+.env.*
 
-# build
+# builds
 dist
 .next
 coverage
 
 # logs
-logs
 *.log
 
-# mac/linux
+# OS
 .DS_Store
 
-# vscode
+# IDE
 .vscode
 
-# prisma
-prisma/dev.db
+# NestJS
+backend/dist
 
-# docker
-docker-data
+# NextJS
+frontend/.next
+
+# Testing
+jest-report
+
+# Prisma
+*.db
